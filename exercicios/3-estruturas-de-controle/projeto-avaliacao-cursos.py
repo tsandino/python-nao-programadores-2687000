@@ -21,7 +21,7 @@ if curso_SQL in cursos:
 
 if curso_R in cursos:
   print(f"O curso {curso_R} está no catálogo. Por favor avalie o curso.")
-  avaliacoes[curso_Pyhon] = int(input('Qual a nota que você dá para o curso (0 a 5) ?'))
+  avaliacoes[curso_R] = int(input('Qual a nota que você dá para o curso (0 a 5) ?'))
 
 else:
   print('Infelizmente, o curso não compõe nosso catálogo.')
