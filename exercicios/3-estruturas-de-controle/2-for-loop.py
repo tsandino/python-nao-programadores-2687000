@@ -1,6 +1,9 @@
 # Crie uma lista
 
+
 # Crie um for loop para imprimir cada elemento dessa lista
+for item in range(7):
+  print(f"{item} - Estou aprendendo Python.")
 
 
 # Crie um objeto iterável utilizando a função range()
